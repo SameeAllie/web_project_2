@@ -31,10 +31,12 @@
 }
 
 .about__paragraph {
-  margin-right: 80px;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 400;
+  margin-right: 80px;
   max-width: 660px;
 }
 
@@ -59,4 +61,17 @@
   top: -121px;
   left: -121px;
   animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
 }

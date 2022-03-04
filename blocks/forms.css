@@ -3,6 +3,8 @@
 }
 
 .form__label {
+  font-family: Inter;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -11,6 +13,12 @@
 }
 
 .form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
   margin-bottom: 32px;
   border-radius: 4px;
   min-width: 385px;
@@ -34,7 +42,7 @@
 }
 
 .form__button {
-  font-family: "Inter", "Arial", sans-serif;
+  font-family:Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
