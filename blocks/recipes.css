@@ -46,3 +46,7 @@
   justify-content: space-between;
   padding-bottom: 215px;
 }
+
+.recipe_content{
+  margin:0;
+}
