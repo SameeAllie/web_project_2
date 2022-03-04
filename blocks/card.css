@@ -1,0 +1,55 @@
+.card {
+  width: 500px;
+}
+
+.card__title {
+  padding-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #d9e7ff;
+  text-align: left;
+}
+
+.card__list-item {
+  list-style: none;
+  padding-top: 16px;
+  font-family: Noto serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #d9e7ff;
+  align-items: baseline;
+  flex-grow: 1;
+  display: flex;
+}
+
+.card__list-divider {
+  display: flex;
+  flex-grow: 1;
+  align-items: baseline;
+}
+
+.card__content {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Noto Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #d9e7ff;
+}
+
+.card__list-divider::after {
+  content: "";
+  min-width: 50px;
+  border-bottom: 1px solid #d9e7ff;
+  margin-left: 8px;
+  margin-right: 8px;
+  flex-grow: 1;
+}
