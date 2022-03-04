@@ -47,6 +47,10 @@
   padding-bottom: 215px;
 }
 
-.recipe_content{
+.recipe__videos-item{
   margin:0;
+}
+
+.recipe__iframe{
+  margin:0
 }
