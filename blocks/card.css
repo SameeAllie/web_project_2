@@ -1,22 +1,21 @@
 .card {
-  width: 500px;
+  width: 600px;
 }
 
 .card__title {
-  padding-bottom: 32px;
-  font-family: Inter;
+  margin: 0 0 32 0;
+  font-family: Noto serif, "Times New Roman", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  color: #d9e7ff;
+  color: white;
   text-align: left;
 }
 
 .card__list-item {
   list-style: none;
-  padding-top: 16px;
-  font-family: Noto serif;
+  font-family: Noto serif, "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -25,6 +24,12 @@
   align-items: baseline;
   flex-grow: 1;
   display: flex;
+  padding-top: 0;
+  padding-top: 16px;
+}
+
+.card__list-item:first-child {
+  padding-top: 0;
 }
 
 .card__list-divider {
@@ -42,13 +47,13 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
-  color: #d9e7ff;
+  color: white;
 }
 
 .card__list-divider::after {
   content: "";
   min-width: 50px;
-  border-bottom: 1px solid #d9e7ff;
+  border-bottom: 1px solid white;
   margin-left: 8px;
   margin-right: 8px;
   flex-grow: 1;
