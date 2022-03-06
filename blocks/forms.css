@@ -1,9 +1,10 @@
 .form__fieldset {
   border: none;
+  padding: 0;
 }
 
 .form__label {
-  font-family: Inter;
+  font-family: Inter, Arial sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -13,7 +14,7 @@
 }
 
 .form__input {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -45,7 +46,7 @@
 }
 
 .form__button {
-  font-family: Inter, "Times New Roman", serif;
+  font-family: Inter, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
   background-color: #2f80ed(opacity 100%);

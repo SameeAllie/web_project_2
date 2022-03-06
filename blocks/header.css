@@ -1,12 +1,10 @@
 .header {
   background-color: white;
-  height: 100vh;
   min-height: 720px;
-  max-height: 800px;
   padding-left: 30px;
   padding-top: 30px;
   padding-right: 5px;
-  padding-bottom: 0px;
+  padding-bottom: 40px;
   position: relative;
   box-sizing: border-box;
   background-image: url(../images/background_header.svg);
@@ -19,12 +17,12 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  margin-left: 50px;
-  font-family: Inter;
+  margin: 0 0 0 50px;
+  font-family: Inter, Arial, sans-serif;
 }
 .header__span-accent {
   display: block;
-  font-family: Noto serif;
+  font-family: Noto serif, "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -34,23 +32,23 @@
 
 .header__description {
   margin-top: 28px;
-  font-family: Noto serif;
+  font-family: Noto serif, "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin-left: 50px;
+  margin: 0 0 0 50px;
   max-width: 675px;
 }
 
 .header__footer {
   display: flex;
-  flex-direction: column;
-  font-family: Noto serif, "Times New Roman", Inter;
+  font-family: Noto serif, "Times New Roman", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   bottom: 40px;
-  position: absolute;
+  padding-top: 200px;
+  justify-content: space-between;
 }
 
 .header__image {
@@ -61,9 +59,9 @@
   z-index: 0;
 }
 
-.header__hours {
+.header__footer-item {
   list-style: none;
-  margin-left: 10px;
+  margin: 0 0 0 50px;
   display: flex;
   flex-direction: column;
   bottom: 40px;
@@ -71,13 +69,17 @@
 }
 
 .header__footer-address {
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  /* margin:auto 80px 0 auto; */
+  text-align: right;
+  z-index: 1;
   color: #838383;
-  /* text-align: right; */
+  padding: 0 80px 0 0;
 }
 
 .head__hours-item {
   margin: 0;
+}
+
+.header__footer-title {
+  margin: 0 0 0 50px;
+  color: #838383;
 }

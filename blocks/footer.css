@@ -18,7 +18,6 @@
 }
 
 .footer__social-heading {
-  display: flex;
   margin: 0;
 }
 
@@ -45,6 +44,7 @@
   text-decoration: none;
   transition: color 0.3s ease-in-out;
   display: flex;
+  margin: 0 40px 0 40px;
 }
 .footer__social-link:hover {
   color: #c1c1c1;
@@ -60,7 +60,7 @@
 .footer__list-title {
   margin: 0 60px 20px auto;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
