@@ -25,13 +25,14 @@
   display: flex;
   flex-direction: column;
   font-weight: normal;
-  margin: 0 100px 16px auto;
+  margin: 0 100px 0 auto;
 }
 
 .footer__list-item {
   list-style: none;
   font-weight: normal;
-  margin: 0 auto 20px auto;
+  margin: 0 auto 16px auto;
+  padding: 0;
 }
 
 .footer__social-icon {
@@ -44,7 +45,12 @@
   text-decoration: none;
   transition: color 0.3s ease-in-out;
   display: flex;
-  margin: 0 40px 0 40px;
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 .footer__social-link:hover {
   color: #c1c1c1;
@@ -55,11 +61,16 @@
   align-items: flex-end;
   margin: 108px auto 0 80px;
   font-weight: 300;
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .footer__list-title {
-  margin: 0 60px 20px auto;
-  text-align: center;
+  margin: 0 100px 20px auto;
+  text-align: end;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
