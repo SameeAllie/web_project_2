@@ -17,7 +17,7 @@
   max-height: 32px;
 }
 
-.footer__social-heading {
+.footer__social {
   margin: 0;
 }
 
@@ -26,6 +26,7 @@
   flex-direction: column;
   font-weight: normal;
   margin: 0 100px 0 auto;
+  padding: 0;
 }
 
 .footer__list-item {
@@ -68,7 +69,7 @@
   line-height: 20px;
 }
 
-.footer__list-title {
+.footer__social-heading {
   margin: 0 100px 20px auto;
   text-align: end;
   font-family: Inter, Arial, sans-serif;
