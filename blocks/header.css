@@ -60,7 +60,7 @@
   z-index: 0;
 }
 
-.header__hours-item {
+.header__footer-item {
   list-style: none;
   margin: 0 0 0 50px;
   display: flex;
@@ -69,7 +69,7 @@
   color: #838383;
 }
 
-.header__hours-address {
+.header__footer-address {
   text-align: right;
   z-index: 1;
   color: #838383;
@@ -77,7 +77,7 @@
   margin: 0;
 }
 
-.header__hours-title {
+.header__footer-title {
   margin: 0 0 0 50px;
   color: #838383;
 }
