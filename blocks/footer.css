@@ -25,15 +25,19 @@
   display: flex;
   flex-direction: column;
   font-weight: normal;
-  margin: 0 100px 16px auto;
+  margin: 0 100px 0 auto;
   padding: 0;
 }
 
 .footer__list-item {
   list-style: none;
   font-weight: normal;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 16px auto;
   padding: 0;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .footer__social-icon {
